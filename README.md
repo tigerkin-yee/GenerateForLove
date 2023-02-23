@@ -56,11 +56,14 @@ module.exports = {
 - 没有安装npm或者NodeJs, 需要先在这里安装: https://nodejs.org/dist/v16.15.1/node-v16.15.1-x64.msi
 - 安装好的，就直接运行`cloudfunctions/Install-WX-Server-SDK.bat` 
 - 不成功的话可以在命令行输入 `npm install --save wx-server-sdk@latest`
+## 自定义外观
 - 更改小程序颜色、名字的方法：miniprogram-app.json 第16行是小程序颜色，第17行是小程序名字
 - 更改图片的方法：点击各个Images文件夹中的照片，右键“在资源管理器中显示”，将文件夹里面的照片替换掉即可。注意程序大小有限制，图片需要压缩一下，每个图标10k内、图片100k内为佳。
 >![Image](Pics/imageSample.png)
 - 首页文字更改方法：Mainpage->index.wxml 代码第27行和第32行
-- 然后创建体验版小程序->通过开发者账号分享到女朋友手机上(要先登录小程序开发者账号)
+
+## 创建体验版
+- 创建体验版小程序->通过开发者账号分享到女朋友手机上(要先登录小程序开发者账号)
 - 在两个手机上运行小程序->分别在两个手机上的小程序里新建任务
 - 然后回到云开发控制台的`missionlist`数据库集合->找自己和女朋友的`_openid`变量并记录
 - 把这两个记录下来的`_openid`拷贝到云开发控制台`UserList`数据集合里刚刚没填的`_openid`变量中
@@ -72,5 +75,5 @@ module.exports = {
 - 最后如果有兴趣可以继续深入开发, 开发文档: https://developers.weixin.qq.com/miniprogram/dev/component/
 
 ## 声明
-- 二次开发版小程序内所有图标均来自约稿，未经授权不可使用。
+- 二次开发版小程序内所有图标均来自约稿，未经授权不可做其他用途。
 - 若想使用此项目为商用，请先告知原作者，谢谢。
