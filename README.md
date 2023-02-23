@@ -1,4 +1,4 @@
-# cp互动小程序（做任务，攒积分，换商品）
+# cp互动小程序（To Love List）
 ## 序言
 给我家cp写了一个专属的微信小程序，感觉很可爱很满意想让空友都来看！
 基于原版（[UxxHans/Rainbow-Cats-Personal-WeChat-MiniProgram](https://github.com/UxxHans/Rainbow-Cats-Personal-WeChat-MiniProgram)）二次开发，可以用于情侣互动、待办事项、监督任务等等。To love list的名字由to do list而来，是希望能够把待办事项和情感互动结合在一起～
