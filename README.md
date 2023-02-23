@@ -57,10 +57,10 @@ module.exports = {
 - 安装好的，就直接运行`cloudfunctions/Install-WX-Server-SDK.bat` 
 - 不成功的话可以在命令行输入 `npm install --save wx-server-sdk@latest`
 ## 自定义外观
-- 更改小程序颜色、名字的方法：miniprogram-app.json 第16行是小程序颜色，第17行是小程序名字
-- 更改图片的方法：点击各个Images文件夹中的照片，右键“在资源管理器中显示”，将文件夹里面的照片替换掉即可。注意程序大小有限制，图片需要压缩一下，每个图标10k内、图片100k内为佳。
+- 更改小程序颜色、名字的方法：`miniprogram-app.json` 第16行是小程序颜色，第17行是小程序名字
+- 更改图片的方法：点击各个`Images`文件夹中的照片，右键“在资源管理器中显示”，将文件夹里面的照片替换掉即可。注意程序大小有限制，图片需要压缩一下，每个图标10k内、图片100k内为佳。
 >![Image](Pics/imageSample.png)
-- 更改首页文字的方法：Mainpage->index.wxml 代码第27行和第32行
+- 更改首页文字的方法：`Mainpage->index.wxml` 代码第27行和第32行
 
 ## 创建体验版
 - 创建体验版小程序->通过开发者账号分享到女朋友手机上(要先登录小程序开发者账号)
