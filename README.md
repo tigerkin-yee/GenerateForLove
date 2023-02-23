@@ -72,5 +72,5 @@ module.exports = {
 - 最后如果有兴趣可以继续深入开发, 开发文档: https://developers.weixin.qq.com/miniprogram/dev/component/
 
 ## 声明
-- 二开版小程序内所有图标均来自约稿，未经授权不可使用。
+- 二次开发版小程序内所有图标均来自约稿，未经授权不可使用。
 - 若想使用此项目为商用，请先告知原作者（第一作者），谢谢。
