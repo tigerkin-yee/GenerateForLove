@@ -70,7 +70,7 @@ module.exports = {
 - 把这两个记录下来的`_openid`拷贝到`miniprogram/app.js`里的`_openidA`和`_openidB`的值里
 - 在`miniprogram/app.js`里把`userA`和`userB`改成自己和女朋友的名字
 - 然后再试试看是不是成功了! (别忘了任务和物品**左滑**可以完成和购买)
-- 别忘了最后点击右上角上传->然后在开发者账号上设置小程序为**体验版**->不用去发布去审核
+- 别忘了最后点击右上角上传->然后在开发者账号上设置小程序为**体验版**->不用去发布审核
 >![Image](Pics/UploadOption.jpg)
 - 最后如果有兴趣可以继续深入开发, 开发文档: https://developers.weixin.qq.com/miniprogram/dev/component/
 
